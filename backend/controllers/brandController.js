@@ -47,7 +47,7 @@ const getBrand = async (req, res) => {
 };
 
 
-//remove food item
+//remove brand item
 const removeBrand = async (req, res) => {
   try {
     const brand = await brandModel.findById(req.body.id);

@@ -83,14 +83,10 @@ const searchCar = async (req, res) => {
     const { year, type, brand, model, fuelType, transmission } = req.query;
 
     const brandName = await brandModel.findById(brand);
-
-    console.log(brandName.name);
     const modelName = await modelModel.findById(model);
-    console.log(modelName.name);
 
     // Build the search query based on the provided parameters
     const searchQuery = {};
-
     if (year) {
       searchQuery.year = parseInt(year, 10); // Ensure year is an integer
     }
@@ -109,14 +105,7 @@ const searchCar = async (req, res) => {
     if (transmission) {
       searchQuery.transmission = transmission;
     }
-
-    console.log('Search Query:', searchQuery);
-
-
-    // Execute the search query using aggregation pipeline
     const cars = await carModel.find(searchQuery);
-
-    console.log('Cars found:', cars);
 
    // Modify the brand and model IDs with their names
     const modifiedCars = cars.map(car => ({
@@ -124,10 +113,6 @@ const searchCar = async (req, res) => {
       brand: brandName ? brandName.name : "",
       model: modelName ? modelName.name : ""
     }));
-
-    console.log(modifiedCars)
-
-    // Return the search results
     res.status(200).json({ success: true, data: modifiedCars });
   } catch (error) {
     // Handle errors

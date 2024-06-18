@@ -18,8 +18,6 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage});
 
-
-
 modelRouter.post("/add",upload.single("image"),authMiddleware,addModel)
 modelRouter.get("/list",listModel)
 modelRouter.get("/listbybrand",listModelsByBrand)
@@ -27,8 +25,6 @@ modelRouter.get('/listbybrand/:brandId', listModelsByBrandId);
 modelRouter.get("/:id",getModel)
 modelRouter.post("/remove",removeModel)
 modelRouter.put("/update",upload.single("image"),authMiddleware, updateModel)
-
-
 
 
 export default modelRouter;

@@ -1,0 +1,71 @@
+.compare-page {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    margin-top: 170px;
+}
+
+.compare-cars-container {
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.compare-cars-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.compare-cars-container .location {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.compare-cars-container .dropdown {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compare-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.add-vehicle-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 250px;
+    margin-top: 50px;
+}
+
+.add-vehicle-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.cars-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

@@ -1,0 +1,67 @@
+.car-list-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the page takes at least the viewport height */
+}
+
+.car-list-container {
+    flex-grow: 1; /* Allow the container to grow to fill available space */
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 150px;
+}
+
+.car-list-container h2{
+    font-size: 2.5em; 
+  color: black; 
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid with minimum column width of 300px */
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.car-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 100%; /* Ensure cards fill the grid cell */
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+}
+
+.car-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-details {
+    padding: 15px;
+}
+
+.car-details h3 {
+    margin: 10px 0 5px;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.car-details h4 {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.car-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #777;
+}

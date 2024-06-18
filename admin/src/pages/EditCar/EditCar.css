@@ -1,0 +1,67 @@
+.edit-car {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .edit-car h2 {
+    font-size: 24px;
+    color:#333;
+    margin-bottom: 20px;
+  }
+  
+  .edit-car form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-car form > div {
+    margin-bottom: 15px;
+  }
+  
+  .edit-car label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .edit-car input[type="text"],
+  .edit-car input[type="number"],
+  .edit-car textarea,
+  .edit-car select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .edit-car input[type="file"] {
+    padding: 5px;
+  }
+  .edit-car img {
+    margin-top: 10px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  .edit-car button {
+    width: 120px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-car button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-car button:focus {
+    outline: none;
+  }
+  

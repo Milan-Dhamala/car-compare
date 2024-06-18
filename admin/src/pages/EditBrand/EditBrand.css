@@ -1,0 +1,60 @@
+.edit-brand {
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.edit-brand h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-brand form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-brand label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.edit-brand input[name='name'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.edit-brand input[type='file'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.edit-brand img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 15px;
+}
+
+.edit-brand button[type='submit'] {
+  width: 120px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-brand button[type='submit']:hover {
+  background-color: #0056b3;
+}

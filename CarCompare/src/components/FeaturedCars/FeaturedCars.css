@@ -1,0 +1,15 @@
+.featured-cars{
+    padding:112px 0 120px;
+}
+.featured-cars-content{
+    padding-top:96px;
+}
+.container {
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%
+}
+
+/*.single-featured-cars*/

@@ -1,0 +1,64 @@
+.edit-model {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  
+  }
+  
+  .edit-model h2 {
+    font-size: 24px;
+    color:#333;
+    margin-bottom: 20px;
+  }
+  
+  .edit-model form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-model form div {
+    margin-bottom: 15px;
+  }
+  
+  .edit-model label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .edit-model input[type="text"],
+  .edit-model select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .edit-model input[type="file"] {
+    padding: 5px;
+  }
+  
+  .edit-model img {
+    margin-top: 10px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  .edit-model button[type='submit'] {
+  width: 120px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  
+  .edit-model button:hover {
+    background-color: #0056b3;
+  }
+  

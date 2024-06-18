@@ -1,0 +1,47 @@
+.add-vehicle-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.add-vehicle-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.add-vehicle-form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.add-vehicle-form .form-group label {
+    margin-bottom: 5px;
+}
+
+.add-vehicle-form .form-group select {
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-vehicle-btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    align-self: center;
+    /* Center the button within its container */
+    width: 200px;
+    /* Set the desired width here */
+    /* width: 80%; /* Alternatively, set a percentage width */
+    /* max-width: 300px; /* Optionally, set a maximum width */
+}
+
+.add-vehicle-btn:hover {
+    background-color: #0056b3;
+}

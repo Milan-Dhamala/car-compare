@@ -1,0 +1,21 @@
+.clients-say{padding:115px 0 80px;background: #f8f9fb;}
+
+/*testimonial-description*/
+.clients-say .testimonial-carousel .col-sm-3,
+.clients-say .testimonial-carousel .col-xs-12{
+    width:100%;
+    height:auto;
+}
+
+/*owl carousel*/
+.clients-say .owl-carousel .owl-stage {
+    position: relative;
+    padding: 100px 0 40px;
+}
+.clients-say .owl-carousel .owl-item img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    margin:0 auto;
+}

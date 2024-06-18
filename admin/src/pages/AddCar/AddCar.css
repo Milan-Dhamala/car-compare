@@ -1,0 +1,40 @@
+.add-car {
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+  }
+  
+  .add-car form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .add-car img {
+    width: 120px;
+  }
+  
+  .add-car select,
+  .add-car input,
+  .add-car textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-car button {
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-car button:hover {
+    opacity: 0.8;
+  }
+  

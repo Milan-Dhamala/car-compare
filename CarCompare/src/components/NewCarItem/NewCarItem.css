@@ -1,0 +1,22 @@
+.new-cars-item {
+    padding: 0 0px; /* Adjust as needed */
+  }
+.new-cars-img{
+    height: 200px
+}
+.new-cars-img img{
+    width: 100px;
+    height: 100px;
+}
+.new-cars-txt {margin-left: 29px;margin-bottom: 30px;}
+.new-cars-txt h2 a {
+    font-size:  30px;
+    font-weight:  500;
+    margin-bottom: 26px;
+}
+.new-cars-txt h2 a span {text-transform:  uppercase;}
+.new-cars-para2 {margin-top: 30px;}
+.welcome-btn.new-cars-btn {
+    width: 176px;
+    margin-top: 32px;
+}

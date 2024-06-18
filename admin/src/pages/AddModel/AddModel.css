@@ -1,0 +1,62 @@
+
+.add-model {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-model h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-model form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-model label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .add-model input[type='text'],
+  .add-model textarea,
+  .add-model select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .add-model input[type='file'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .add-model button[type='submit'] {
+    width: 120px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-model button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  .add-model button.focus{
+    outline: none;
+  }
+  

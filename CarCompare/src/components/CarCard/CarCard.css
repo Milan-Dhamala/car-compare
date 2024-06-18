@@ -1,0 +1,30 @@
+.car-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+.delete-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.car-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.car-info {
+    margin-top: 10px;
+}
+
+.car-info p {
+    margin: 5px 0;
+}

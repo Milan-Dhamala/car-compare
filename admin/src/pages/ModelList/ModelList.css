@@ -1,0 +1,90 @@
+.model-list {
+  padding: 20px;
+  width: 50%;
+  margin-left: 50px;
+}
+
+h2 {
+  margin-bottom: 66px; 
+}
+
+.brand-section {
+  margin-bottom: 20px;
+}
+
+.brand-name {
+  cursor: pointer;
+  color: #333;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 0.3s;
+  background-color: #fff0ed;
+  border-color: tomato;
+  padding: 10px 15px;
+}
+
+
+.brand-name:hover {
+  color: #007BFF;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.models-container {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+
+.models-container.expanded {
+  max-height: 1000px; 
+  transition: max-height 0.5s ease-in, padding 0.5s ease-in;
+}
+
+.models-container.collapsed {
+  max-height: 0;
+  padding: 0;
+}
+
+.models-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.models-table th, .models-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.models-table th {
+  background-color: #f4f4f4;
+}
+
+.model-image {
+  width: 100px;
+  height: auto;
+}
+
+.edit-button {
+  margin-right: 10px;
+  background-color: #3498db;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px; 
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 10px; 
+}
